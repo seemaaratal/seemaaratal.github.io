@@ -155,15 +155,6 @@ footer {
    
 }
 
-.project-card:hover {
-    transform: translateY(-10px);
-}
-.project-card h3 {
-    font-size: 22px;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-}
 #contact {
     padding: 60px 20px;
     text-align: center;
