@@ -79,7 +79,7 @@ nav ul li a:hover {
 }
 
 section {
-    padding: 80px 20px;
+    padding: 60px 0;
     text-align: center;
     width:100%;
 }
@@ -124,17 +124,50 @@ footer {
     color: #222;
 }
 
-/* Projects Section */
 #projects {
+    padding: 60px 20px;
     background: linear-gradient(135deg, #667eea, #764ba2);
+    text-align: center;
     color: white;
 }
 
-/* Contact Section */
-#contact {
-    background: linear-gradient(135deg, #11998e, #38ef7d);
-    color: #111;
+.project-card {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 30px;
+    margin: 30px auto;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.2);
+    transition: 0.3s;
 }
+
+.project-card:hover {
+    transform: translateY(-10px);
+}
+.project-card h3 {
+    font-size: 22px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+#contact {
+    padding: 60px 20px;
+    text-align: center;
+    background: #0f2027;
+    background: linear-gradient(to right, #2c5364, #203a43, #0f2027);
+    color: white;
+}
+
+#contact a {
+    color: #00f2fe;
+    text-decoration: none;
+}
+
+#contact a:hover {
+    text-decoration: underline;
+}
+
 .resume-btn {
     background: transparent;
     border: 2px solid #00f2fe;
