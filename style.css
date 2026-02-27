@@ -59,8 +59,9 @@ nav ul li a:hover {
 .profile-pic {
     width: 220px;
     height: 220px;
-    border-radius: 80%;
+    border-radius: 50%;
     object-fit: cover;
+    display: block;
     border: 5px solid #00f2fe;
     box-shadow: 0 0 25px #00f2fe;
 }
@@ -87,8 +88,8 @@ nav ul li a:hover {
 section {
     padding: 60px 0;
     text-align: center;
-    width:100%;
 }
+
 section h2{
     font-size: 32px;
     margin-bottom: 20px;
