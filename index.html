@@ -3,40 +3,64 @@
 <head>
     <title>Seema Aratal | Portfolio</title>
     <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 
-    <header>
-        <h1>Hi, I'm Seema 👋</h1>
-        <img src="profile.jpg" alt="Seema Profile" class="profile-pic">
-        <p>Computer Science Engineering Student</p>
-    </header>
+<nav>
+    <h2 class="logo">Seema</h2>
+    <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+</nav>
 
-    <section>
-        <h2>About Me</h2>
-        <p>I am a passionate CSE student interested in AI, Web Development and problem solving.</p>
-    </section>
+<section class="hero">
+    <div class="hero-text">
+        <h1>Hi, I'm <span>Seema 👋</span></h1>
+        <p>Computer Science Engineering Student | AI & Web Enthusiast</p>
+        <a href="#contact" class="btn">Contact Me</a>
+    </div>
+    <img src="profile.jpg" alt="Profile" class="profile-pic">
+</section>
 
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>Java</li>
-            <li>Python</li>
-            <li>HTML & CSS</li>
-            <li>JavaScript</li>
-        </ul>
-    </section>
+<section id="about">
+    <h2>About Me</h2>
+    <p>I am passionate about AI, Web Development and solving real-world problems through technology.</p>
+</section>
 
-    <section>
-        <h2>Projects</h2>
-        <p><b>AI Civic Issue Resolution Platform</b> – A platform to classify and track public complaints.</p>
-    </section>
+<section id="skills">
+    <h2>Skills</h2>
+    <div class="card-container">
+        <div class="card">Java</div>
+        <div class="card">Python</div>
+        <div class="card">HTML</div>
+        <div class="card">CSS</div>
+        <div class="card">JavaScript</div>
+    </div>
+</section>
 
-    <section>
-        <h2>Contact</h2>
-        <p>Email: yourmail@gmail.com</p>
-        <p>GitHub: github.com/yourusername</p>
-    </section>
+<section id="projects">
+    <h2>Projects</h2>
+    <div class="card-container">
+        <div class="card">
+            <h3>Earthecho- Environment mood tracker</h3>
+            <p>A small application using basic techniques-Flutter(Dart), Git, Openweather aPI, VS Code</p>
+        </div>
+    </div>
+</section>
+
+<section id="contact">
+    <h2>Contact</h2>
+    <p>Email: seemaaratal6@gmail.com</p>
+    <p>GitHub: github.com/seemaaratal</p>
+</section>
+
+<footer>
+    <p>© 2026 Seema Aratal | All Rights Reserved</p>
+</footer>
 
 </body>
 </html>
