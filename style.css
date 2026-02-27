@@ -102,10 +102,10 @@ section h2{
 
 .card {
     background: rgba(255,255,255,0.1);
-    padding: 20px;
+    padding: 10px;
     margin: 10px;
     border-radius: 10px;
-    width: 300px;
+    width: 400px;
     transition: 0.3s;
 }
 .card h3{
