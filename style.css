@@ -59,7 +59,7 @@ nav ul li a:hover {
 .profile-pic {
     width: 250px;
     height: 250px;
-    border-radius: 60%;
+    border-radius: 80%;
     object-fit: cover;
     border: 5px solid #00f2fe;
     box-shadow: 0 0 25px #00f2fe;
