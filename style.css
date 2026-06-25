@@ -42,12 +42,14 @@ nav ul {
     }
 
     nav ul li a {
-        font-size: 16px;
-    }
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
 }
 
 .logo {
-    color: #00f2fe;
+    color: cyan;
 }
 
 .hero {
