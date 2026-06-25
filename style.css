@@ -42,7 +42,7 @@ nav ul {
     }
 
     nav ul li a {
-    color: white;
+    color: white !important;
     text-decoration: none;
     transition: 0.3s;
 }
